@@ -8,10 +8,6 @@
 	</array>
 	<key>firstLineMatch</key>
 	<string>// ==UserScript==</string>
-	<key>foldingStartMarker</key>
-	<string>// ==UserScript==</string>
-	<key>foldingStopMarker</key>
-	<string>// ==/UserScript==</string>
 	<key>keyEquivalent</key>
 	<string>^~G</string>
 	<key>name</key>
