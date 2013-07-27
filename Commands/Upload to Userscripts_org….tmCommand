@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>saveActiveFile</string>
 	<key>command</key>
-	<string>#!/usr/bin/env ruby
+	<string>#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
 
 require "#{ENV['TM_BUNDLE_SUPPORT']}/greasemonkey.rb"
 Greasemonkey.new.upload_to_userscripts</string>
