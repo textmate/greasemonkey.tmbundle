@@ -4,7 +4,7 @@
 <dict>
 	<key>command</key>
 	<string>if [[ ! -f "$TM_NEW_FILE" ]]; then
-	ruby -e '
+	/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -e '
 		template = STDIN.read
 		# This file stores staple functions outside of the bundle
 		STAPLES = "#{ENV["HOME"]}/Library/Preferences/com.macromates.textmate.gmbundle.staples.user.js"

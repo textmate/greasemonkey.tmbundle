@@ -11,7 +11,7 @@
 
 # First try GM docs
 
-ref=$(ruby -e '
+ref=$(/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -e '
 	GM_ENTRIES = %w{GM_addStyle GM_getValue GM_setValue GM_log GM_openInTab GM_registerMenuCommand GM_xmlhttpRequest unsafeWindow}
 	look_up = ENV["TM_SELECTED_TEXT"] || ENV["TM_CURRENT_WORD"]
 	puts look_up if GM_ENTRIES.include?(look_up)

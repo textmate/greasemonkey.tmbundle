@@ -12,7 +12,7 @@
 			end try
 		APPLESCRIPT)
 	fi
-	[[ -n "$CURRENT_URL" ]] && ruby -e "exit 1 unless %{$CURRENT_URL}=~ /^(https?|ftp):/" && echo "$CURRENT_URL" || echo "*"
+	[[ -n "$CURRENT_URL" ]] && /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -e "exit 1 unless %{$CURRENT_URL}=~ /^(https?|ftp):/" && echo "$CURRENT_URL" || echo "*"
 `}
 // ==/UserScript==
 
